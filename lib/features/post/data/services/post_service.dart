@@ -55,7 +55,7 @@ class PostService {
   // Tetap menggunakan Cloud Function untuk comment (dengan filter)
   Future<void> addComment(String postId, String content) async {
     try {
-      await _functions.httpsCallable('addFilteredComment').call({
+      await _functions.httpsCallable('addComment').call({
         'postId': postId,
         'content': content,
       });
