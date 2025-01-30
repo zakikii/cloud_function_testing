@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "737343289915",
+    "project_id": "cloud-func-test-383e2",
+    "storage_bucket": "cloud-func-test-383e2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:737343289915:android:9ae7a5a000a991469e7a1e",
+        "android_client_info": {
+          "package_name": "com.example.cloud_function_testing"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmKb5xya44h4JiBgRKHUEFQQkWlcgB7p4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
