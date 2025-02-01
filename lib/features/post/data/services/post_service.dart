@@ -111,4 +111,16 @@ class PostService {
       throw Exception('Failed to edit post: $e');
     }
   }
+
+  Future<Post> getPost(String postId) async {
+    try {
+      final doc = await _db.collection('posts').doc(postId).get();
+      if (!doc.exists) {
+        throw Exception('Post not found');
+      }
+      return Post.fromJson(doc.data()!);
+    } catch (e) {
+      throw Exception('Failed to get post: $e');
+    }
+  }
 }
